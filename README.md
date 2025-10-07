@@ -4,7 +4,11 @@
 "Hello World!"
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+1. The r g b values are floats because the values have number(s) after the decimal point.
+2. The bounce variable is a int because bounces are counted in whole numbers.
+3. The error I got in Step 4 was due to a lack of a semi colon at the end of the code. The error message was helpful since it told me which line the error was on and also that a semi colon is expected.
+
+### W3
 
 ## Open-Source Assets
 ### W1
