@@ -280,8 +280,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BallW3
   ballRenderer: {fileID: 136054532}
   _rigidbody: {fileID: 136054531}
-  _speedMultiplier: 1
-  _speedThreshold: 10
+  _speedMultiplier: 1.5
+  _speedThreshold: 3
 --- !u!58 &136054530
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -393,7 +393,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0, g: 1, b: 0.45396614, a: 1}
+  m_Color: {r: 0.09073994, g: 0.7798742, b: 0.40422845, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1107,8 +1107,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BallW3
   ballRenderer: {fileID: 851268373}
   _rigidbody: {fileID: 851268372}
-  _speedMultiplier: 1
-  _speedThreshold: 10
+  _speedMultiplier: 1.5
+  _speedThreshold: 3
 --- !u!58 &851268371
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1220,7 +1220,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.7905812, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.6645454, g: 0.12910868, b: 0.8050314, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1554,8 +1554,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BallW3
   ballRenderer: {fileID: 1508419043}
   _rigidbody: {fileID: 1508419042}
-  _speedMultiplier: 1
-  _speedThreshold: 10
+  _speedMultiplier: 1.5
+  _speedThreshold: 3
 --- !u!58 &1508419041
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1667,7 +1667,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.8301887, g: 0.10703685, b: 0.10703685, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
