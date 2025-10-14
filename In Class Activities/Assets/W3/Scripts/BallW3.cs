@@ -1,12 +1,13 @@
 using TMPro;
 using UnityEngine;
+using System;
 
 public class BallW3 : MonoBehaviour
 {
     public SpriteRenderer ballRenderer;
     [SerializeField] private Rigidbody2D _rigidbody;
     [SerializeField] private float _speedMultiplier = 1.0f;
-    [SerializeField] private float _speedThreshold = 10.0f;
+    [SerializeField] private float _speedThreshold = 3.0f;
 
     // ------------------------------------------------------------------------
     // This method is called by Unity whenever the ball hits something.
@@ -31,7 +32,7 @@ public class BallW3 : MonoBehaviour
         // STEP 9 -------------------------------------------------------------
         // After you write the GetColorMultiplier method, simply uncomment
         //      the below line.
-        //ballRenderer.color *= GetColorMultiplier(Mathf.Abs(_rigidbody.linearVelocity.x), Mathf.Abs(_rigidbody.linearVelocity.y));
+        ballRenderer.color *= GetColorMultiplier(Mathf.Abs(_rigidbody.linearVelocity.x), Mathf.Abs(_rigidbody.linearVelocity.y));
         // STEP 9 -------------------------------------------------------------
     }
 
@@ -51,11 +52,22 @@ public class BallW3 : MonoBehaviour
     //      return a value of 1.5,
     //      otherwise, return a value of 1.0. 
 
-    //private ??? GetColorMultiplier(??? ???, ??? ???)
-    //{
+    private float GetColorMultiplier(float X, float Y)
+    {
         // write the method body here!
-        
-    //}
+        float avgSpeed = (X + Y)/2.0f;
+
+        if(avgSpeed > _speedThreshold)
+        {
+            return 1.5f;
+        }
+        else
+        {
+            return 1.0f;
+        }
+
+
+    }
 
     // STEP 8 ------------------------------------------------------------------
 }
