@@ -35,6 +35,19 @@ Collision Activity
 
 2. Intially, I had the ball set to Is Trigger. However, this caused the ball to fall through the ground. To fix this, I added another collider which did not have the Is Trigger checked in order to have the ball stay on the ground. However, I then realized that it was the goal that needed the Is Trigger since it is the object that is being checked.
 
+## W5
+
+Activity 1:
+
+Q. What is the point of using "[SerializeField] private" instead of "public" when creating variables.
+A. uhh not answered :(
+
+Q. How do we know which script's Update method is called first?
+A. The order is rather random and there is no guarantee which one gets called before which one. However, the difference is miniscule so it will not affect anything for this class.
+
+Activity 2:
+The Deerw5 class should need a [SerializeField] for the deer's Rigidbody, NavMeshAgent, and the transform of the target. It will also need a Start() function to get the components of the rigidbody and NavMeshAgent. Finally, it will need an Update function to move the deer using the NavMeshAgent method called SetDestination.
+
 
 ## Open-Source Assets
 ### W1
