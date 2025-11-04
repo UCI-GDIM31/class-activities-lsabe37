@@ -48,6 +48,17 @@ A. The order is rather random and there is no guarantee which one gets called be
 Activity 2:
 The Deerw5 class should need a [SerializeField] for the deer's Rigidbody, NavMeshAgent, and the transform of the target. It will also need a Start() function to get the components of the rigidbody and NavMeshAgent. Finally, it will need an Update function to move the deer using the NavMeshAgent method called SetDestination.
 
+## w6
+
+Activity 1:
+
+I mainly worked on the Unity Engine and Unity Coding sections.
+
+Activty 2:
+
+The BatW6 component will need a [SerializeField] private float called "speed" which will determine the speed at which the bats move. It will also need a [SerializeField] Transform called "target" to act as the reference for what (the player) the bats should chase. This component will need two methods. The first will be a private void called chasePlayer() which will get the bats to chase the player when called. Inside the method, there should be an if statement that will use transform.position to move the bats towards the target if the bat's transform.position is not equal to the player's transform.position. The second method will be a private void called endChase(). This method will disable this script when called.
+
+Here is the link: [Week 6: Activity 1](https://docs.google.com/document/d/1wrY73yJ_km0ig2SehlUSuSx3rOOu84QnORwQ0mV305o/edit?usp=sharing)
 
 ## Open-Source Assets
 ### W1
