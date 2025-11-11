@@ -60,6 +60,19 @@ The BatW6 component will need a [SerializeField] private float called "speed" wh
 
 Here is the link: [Week 6: Activity 1](https://docs.google.com/document/d/1wrY73yJ_km0ig2SehlUSuSx3rOOu84QnORwQ0mV305o/edit?usp=sharing)
 
+
+## W7
+ Activity 1:
+
+ I worked on all five parts. 
+
+ Here is the link: [Week 7: Activity 1](https://docs.google.com/document/d/12FkLu3TyiaSycwzMFiDzaApR5NOht5-WelRo95wzODg/edit?usp=sharing)
+
+ Activity 2:
+The code in step 2 makes the musk rat move based on the global axis instead of the local axis. When the musk rat turns around, it's fowrward and the global axis' forward become different. Therefore, when the musk rat attempts to move forward based on the global axis' fprward direction, it ends up moving in a direction that is not its local axis' forward.
+
+Activity 2:
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
